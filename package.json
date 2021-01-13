@@ -1,0 +1,45 @@
+{
+  "name": "meteor-coreui-free-react-admin-template",
+  "version": "1.12.1",
+  "private": true,
+  "scripts": {
+    "start": "meteor run",
+    "test": "meteor test --once --driver-package meteortesting:mocha",
+    "test-app": "TEST_WATCH=1 meteor test --full-app --driver-package meteortesting:mocha",
+    "visualize": "meteor --production --extra-packages bundle-visualizer"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.11.2",
+    "@coreui/chartjs": "^2.0.0",
+    "@coreui/coreui": "^3.4.0",
+    "@coreui/icons": "^2.0.0-rc.0",
+    "@coreui/icons-react": "^1.0.2",
+    "@coreui/react": "^3.4.0",
+    "@coreui/react-chartjs": "^1.0.1",
+    "@coreui/utils": "^1.3.1",
+    "@wojtekmaj/enzyme-adapter-react-17": "^0.3.2",
+    "classnames": "^2.2.6",
+    "core-js": "^3.8.1",
+    "enzyme": "^3.11.0",
+    "meteor-node-stubs": "^1.0.1",
+    "node-sass": "^4.14.1",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.1",
+    "react-app-polyfill": "^2.0.0",
+    "react-dom": "^17.0.1",
+    "react-redux": "^7.2.2",
+    "react-router-dom": "^5.2.0",
+    "redux": "4.0.5"
+  },
+  "devDependencies": {
+    "auto-changelog": "~2.2.1",
+    "react-scripts": "^4.0.1"
+  },
+  "meteor": {
+    "mainModule": {
+      "client": "client/main.js",
+      "server": "server/main.js"
+    },
+    "testModule": "tests/main.js"
+  }
+}
